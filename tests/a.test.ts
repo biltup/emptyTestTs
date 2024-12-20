@@ -1,6 +1,6 @@
 import {MyApp} from "../src/impl/myApp";
 
-describe('UserService Tests', () => {
+describe('Empty Tests', () => {
 
     beforeEach(() => {
         console.log("Run before every test");

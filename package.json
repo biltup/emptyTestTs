@@ -1,0 +1,26 @@
+{
+  "name": "userservicets",
+  "scripts": {
+    "build": "tsc",
+    "test-a": "jest tests/a.test.ts",
+    "test-b": "jest tests/b.test.ts",
+    "test-c": "jest tests/c.test.ts",
+    "test-d": "jest tests/d.test.ts",
+    "test-all": "jest"
+  },
+  "engines": {
+    "npm": "22.4.x"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5",
+    "typescript": "5.7.2"
+  }
+}
